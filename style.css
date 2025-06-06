@@ -710,6 +710,57 @@ section.start-animation .skill-box2 {
     border-color: rgb(163, 163, 163);
 }
 
+.about-containers {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Ensures responsiveness on smaller screens */
+    padding: 2rem 0;
+}
+
+.details-container {
+    background-color: #d5b3d9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.details-container2 {
+    background-color: #d5b3d9;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.details-container:hover {
+    transform: translateY(-5px);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.project-img1 {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
+
+
 /* contact section */
 .class-left {
     flex-basis: 35%;
