@@ -679,6 +679,28 @@ section.start-animation .skill-box2 {
 }
 
 /* contact section */
+.class-left {
+    flex-basis: 35%;
+}
+
+.class-left p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.class-left p i {
+    color: #ff00ee;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: rgb(215, 9, 191);
+    width: 20%;
+    height: 100%;
+}
+
 section form {
     max-width: 70rem;
     text-align: center;
